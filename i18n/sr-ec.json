@@ -10,5 +10,5 @@
 	"countDownClock-hours": "$1 {{PLURAL:$1|час|часа}}",
 	"countDownClock-minutes": "$1 {{PLURAL:$1|минут|минута}}",
 	"countDownClock-seconds": "$1 {{PLURAL:$1|секунд|секунди}}",
-	"countDownClock-expired" : "Истекло"
+	"countDownClock-expired": "Истекло"
 }

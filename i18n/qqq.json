@@ -10,5 +10,5 @@
 	"countDownClock-hours": "Hours string which will see in Count down time",
 	"countDownClock-minutes": "Minutes string which will see in Count down time",
 	"countDownClock-seconds": "Seconds string which will see in Count down time",
-	"countDownClock-expired" : "Message when count down time has expired"
+	"countDownClock-expired": "Message when count down time has expired"
 }
