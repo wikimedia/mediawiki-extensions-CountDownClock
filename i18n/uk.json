@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"countDownClock-days": "$1 {{PLURAL:$1|день|дні|днів}}",
+	"countDownClock-hours": "$1 {{PLURAL:$1|година|години|годин}}",
+	"countDownClock-minutes": "$1 {{PLURAL:$1|хвилина|хвилини|хвилин}}",
+	"countDownClock-seconds": "$1 {{PLURAL:$1|секунда|секунди|секунд}}"
+}
