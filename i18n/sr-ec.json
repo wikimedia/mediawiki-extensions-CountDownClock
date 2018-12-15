@@ -1,14 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Zoranzoki21"
+			"Zoranzoki21",
+			"BadDog"
 		]
 	},
-	"countDownClock-desc": "Додаје функцију парсера да прикаже време одбројавања",
-	"countDownClock-invalidtime": "Молимо вас да пружите коректан endTime параметар",
-	"countDownClock-days": "$1 {{PLURAL:$1|дан|дани}}",
-	"countDownClock-hours": "$1 {{PLURAL:$1|час|часа}}",
+	"countDownClock-desc": "Додаје функцију рашчлањивања за приказ времена одбројавања",
+	"countDownClock-invalidtime": "Пружите важећи endTime параметар",
+	"countDownClock-days": "$1 {{PLURAL:$1|дан|дана}}",
+	"countDownClock-hours": "$1 {{PLURAL:$1|сат|сата|сати}}",
 	"countDownClock-minutes": "$1 {{PLURAL:$1|минут|минута}}",
-	"countDownClock-seconds": "$1 {{PLURAL:$1|секунд|секунди}}",
+	"countDownClock-seconds": "$1 {{PLURAL:$1|секунд|секунде|секунди}}",
 	"countDownClock-expired": "Истекло"
 }
