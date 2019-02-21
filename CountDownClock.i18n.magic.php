@@ -14,7 +14,14 @@ $magicWords = [];
 $magicWords['en'] = [
     'countDownClock' => [ 0, 'countDownClock' ],
 ];
-
+/**
+ * Kannada
+ *
+ * @author Ananth subray
+ */
+$magicWords['kn'] = [
+    'countDownClock' => [ 0, 'ಇಳಿಯೆಣಿಕೆಯಗಡಿಯಾರ' ],
+];
 /**
  * Dutch
  *
