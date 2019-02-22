@@ -14,6 +14,7 @@ $magicWords = [];
 $magicWords['en'] = [
     'countDownClock' => [ 0, 'countDownClock' ],
 ];
+
 /**
  * Kannada
  *
@@ -22,6 +23,16 @@ $magicWords['en'] = [
 $magicWords['kn'] = [
     'countDownClock' => [ 0, 'ಇಳಿಯೆಣಿಕೆಯಗಡಿಯಾರ' ],
 ];
+
+/**
+ * Telugu
+ *
+ * @author Sumanth699
+ */
+$magicWords['te'] = [
+   'countDownClock'=> [0,'కౌంట్డౌన్_క్లాక్'],
+];
+
 /**
  * Dutch
  *
