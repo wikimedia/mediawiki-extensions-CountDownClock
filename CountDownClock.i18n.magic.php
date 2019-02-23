@@ -41,3 +41,21 @@ $magicWords['te'] = [
 $magicWords['nl'] = [
     'countDownClock' => [ 0, 'aftelKlok' ],
 ];
+
+/**
+ * Serbian Cyrillic (српски (ћирилица))
+ *
+ * @author Zoranzoki21
+ */
+$magicWords['sr-ec'] = [
+    'countDownClock' => [ 0, 'времеОдбројавања' ],
+];
+
+/**
+ * Serbian Latin (srpski (latinica))
+ *
+ * @author Zoranzoki21
+ */
+$magicWords['sr-el'] = [
+    'countDownClock' => [ 0, 'vremeOdbrojavanja' ],
+];
