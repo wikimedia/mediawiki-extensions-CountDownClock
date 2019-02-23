@@ -25,15 +25,6 @@ $magicWords['kn'] = [
 ];
 
 /**
- * Telugu
- *
- * @author Sumanth699
- */
-$magicWords['te'] = [
-   'countDownClock'=> [0,'కౌంట్డౌన్_క్లాక్'],
-];
-
-/**
  * Dutch
  *
  * @author Mainframe98
@@ -58,4 +49,13 @@ $magicWords['sr-ec'] = [
  */
 $magicWords['sr-el'] = [
     'countDownClock' => [ 0, 'vremeOdbrojavanja' ],
+];
+
+/**
+ * Telugu
+ *
+ * @author Sumanth699
+ */
+$magicWords['te'] = [
+   'countDownClock'=> [0,'కౌంట్డౌన్_క్లాక్'],
 ];
