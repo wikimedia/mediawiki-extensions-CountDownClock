@@ -12,7 +12,7 @@ $magicWords = [];
  * @author Jayprakash12345
  */
 $magicWords['en'] = [
-    'countDownClock' => [ 0, 'countDownClock' ],
+	'countDownClock' => [ 0, 'countDownClock' ],
 ];
 
 /**
@@ -21,7 +21,7 @@ $magicWords['en'] = [
  * @author Ananth subray
  */
 $magicWords['kn'] = [
-    'countDownClock' => [ 0, 'ಇಳಿಯೆಣಿಕೆಯಗಡಿಯಾರ' ],
+	'countDownClock' => [ 0, 'ಇಳಿಯೆಣಿಕೆಯಗಡಿಯಾರ' ],
 ];
 
 /**
@@ -30,7 +30,7 @@ $magicWords['kn'] = [
  * @author Mainframe98
  */
 $magicWords['nl'] = [
-    'countDownClock' => [ 0, 'aftelKlok' ],
+	'countDownClock' => [ 0, 'aftelKlok' ],
 ];
 
 /**
@@ -39,7 +39,7 @@ $magicWords['nl'] = [
  * @author Zoranzoki21
  */
 $magicWords['sr-ec'] = [
-    'countDownClock' => [ 0, 'времеОдбројавања' ],
+	'countDownClock' => [ 0, 'времеОдбројавања' ],
 ];
 
 /**
@@ -48,7 +48,7 @@ $magicWords['sr-ec'] = [
  * @author Zoranzoki21
  */
 $magicWords['sr-el'] = [
-    'countDownClock' => [ 0, 'vremeOdbrojavanja' ],
+	'countDownClock' => [ 0, 'vremeOdbrojavanja' ],
 ];
 
 /**
@@ -57,5 +57,5 @@ $magicWords['sr-el'] = [
  * @author Sumanth699
  */
 $magicWords['te'] = [
-   'countDownClock'=> [0,'కౌంట్డౌన్_క్లాక్'],
+   'countDownClock' => [ 0,'కౌంట్డౌన్_క్లాక్' ],
 ];
