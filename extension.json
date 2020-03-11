@@ -23,9 +23,7 @@
 		"CountDownClocknMagic": "CountDownClock.i18n.magic.php"
 	},
 	"Hooks": {
-		"ParserFirstCallInit": [
-			"CountDownClockHooks::onParserSetup"
-		]
+		"ParserFirstCallInit": "CountDownClockHooks::onParserSetup"
 	},
 	"ResourceModules": {
 		"ext.countDownClock": {
