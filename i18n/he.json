@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Erelon",
-			"Steeve815"
+			"Steeve815",
+			"Yona b"
 		]
 	},
+	"countDownClock-invalidtime": "יש להוסיף פרמטר זמן סיום (endTime) תקין",
 	"countDownClock-days": "{{PLURAL:$1|יום אחד|יומיים|$1 ימים}}",
 	"countDownClock-hours": "{{PLURAL:$1|שעה|שעתיים|$1 שעות}}",
 	"countDownClock-minutes": "{{PLURAL:$1|דקה|$1 דקות}}",
