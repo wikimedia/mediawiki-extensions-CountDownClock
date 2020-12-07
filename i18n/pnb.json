@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Abbas dhothar"
+		]
+	},
+	"countDownClock-days": "$1 {{PLURAL:$1|دن|دناں}}"
+}
