@@ -4,10 +4,9 @@ class CountDownClockHooks {
 	/**
 	 * Register the parser functions.
 	 *
-	 * @param Parser &$parser
-	 * @return null
+	 * @param Parser $parser
 	 */
-	public static function onParserSetup( &$parser ) {
+	public static function onParserSetup( $parser ) {
 		// Set {{#countDownClock:}}
 		$parser->setFunctionHook( 'countDownClock', [ __CLASS__, 'renderTime' ] );
 	}
