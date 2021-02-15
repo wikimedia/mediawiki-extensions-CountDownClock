@@ -10,5 +10,5 @@
 	"countDownClock-hours": "$1 {{PLURAL:$1|Hour|Hours}}",
 	"countDownClock-minutes": "$1 {{PLURAL:$1|Minute|Minutes}}",
 	"countDownClock-seconds": "$1 {{PLURAL:$1|Second|Seconds}}",
-	"countDownClock-expired" : "Expired"
+	"countDownClock-expired": "Expired"
 }
