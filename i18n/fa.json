@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jeeputer"
+		]
+	},
+	"countDownClock-desc": "تابع تجزیه‌گری برای نمایش یک زمان‌سنج شمارش معکوس را اضافه می‌کند",
+	"countDownClock-invalidtime": "لطفاً پارامتر endTime معتبری ارائه دهید",
+	"countDownClock-days": "$1 {{PLURAL:$1|روز|روز}}",
+	"countDownClock-hours": "$1 {{PLURAL:$1|ساعت|ساعت}}",
+	"countDownClock-minutes": "$1 {{PLURAL:$1|دقیقه|دقیقه}}",
+	"countDownClock-seconds": "$1 {{PLURAL:$1|ثانیه|ثانیه}}",
+	"countDownClock-expired": "منقضی‌شده"
+}
