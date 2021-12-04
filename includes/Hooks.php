@@ -1,5 +1,11 @@
 <?php
-class CountDownClockHooks {
+
+namespace MediaWiki\Extension\CountDownClock;
+
+use DateTime;
+use Html;
+
+class Hooks {
 
 	/**
 	 * Register the parser functions.
