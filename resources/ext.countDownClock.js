@@ -4,7 +4,8 @@
     var x = setInterval(
         function () {
 
-                var countDownDate = new Date(mw.config.get('endTime')).getTime();
+                var endTime = mw.config.get('endTime').replace(/-/g, "/");
+                var countDownDate = new Date( endTime ).getTime();
 
                 // Get current date and time
                 var currentTime = new Date().getTime();
@@ -21,7 +22,7 @@
                 // Output the result in an element with id="countDownClock"
                 $('#countDownClock').text(
                     mw.message( 'countDownClock-days', days ).text() + ' ' + mw.message( 'countDownClock-hours', hours ).text() + ' ' +
-                    mw.message( 'countDownClock-minutes', minutes ).text() + ' ' + mw.message( 'countDownClock-seconds', seconds ).text() 
+                    mw.message( 'countDownClock-minutes', minutes ).text() + ' ' + mw.message( 'countDownClock-seconds', seconds ).text()
                 );
 
             // If the count down is over, write expired msg
