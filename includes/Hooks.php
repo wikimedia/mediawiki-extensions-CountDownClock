@@ -42,7 +42,7 @@ class Hooks {
 		}
 
 		// Add Javascript Module
-		$parser->getOutput()->addModules( 'ext.countDownClock' );
+		$parser->getOutput()->addModules( [ 'ext.countDownClock' ] );
 
 		// Pass endTime to Javascript
 		$parser->getOutput()->addJsConfigVars( 'endTime', $endTimeForcountDownClock );
