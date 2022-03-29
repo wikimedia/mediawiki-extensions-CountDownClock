@@ -4,5 +4,5 @@
 			"Seipinne"
 		]
 	},
-	"countDownClock-days": "$1 {{PLURAL:$1|peivi|peivid}}"
+	"countDownClock-days": "$1 {{PLURAL:$1|peivi|peeivi|peeivi|peivid}}"
 }
