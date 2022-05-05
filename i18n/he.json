@@ -3,10 +3,11 @@
 		"authors": [
 			"Erelon",
 			"Steeve815",
-			"Yona b"
+			"Yona b",
+			"Amire80"
 		]
 	},
-	"countDownClock-invalidtime": "יש להוסיף פרמטר זמן סיום (endTime) תקין",
+	"countDownClock-invalidtime": "יש להוסיף פרמטר שעת סיום (endTime) תקין",
 	"countDownClock-days": "{{PLURAL:$1|יום אחד|יומיים|$1 ימים}}",
 	"countDownClock-hours": "{{PLURAL:$1|שעה|שעתיים|$1 שעות}}",
 	"countDownClock-minutes": "{{PLURAL:$1|דקה|$1 דקות}}",
