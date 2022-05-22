@@ -59,3 +59,12 @@ $magicWords['sr-el'] = [
 $magicWords['te'] = [
    'countDownClock' => [ 0,'కౌంట్డౌన్_క్లాక్' ],
 ];
+
+/**
+ * Hindi
+ *
+ * @author ParasharSarthak
+ */
+$magicWords['hi'] = [
+   'countDownClock' => [ 0,'उलटीगिनतीघड़ी' ],
+];
