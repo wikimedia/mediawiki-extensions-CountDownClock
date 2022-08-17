@@ -4,6 +4,7 @@
 			"Yupik"
 		]
 	},
+	"countDownClock-days": "$1 {{PLURAL:$1|peiʹvv|peeiʹv|peiʹvved}}",
 	"countDownClock-hours": "$1 {{PLURAL:$1|čiâss|čiâss|čiâssâd}}",
 	"countDownClock-minutes": "$1 {{PLURAL:$1|minutt|minuutt|minuttâd}}",
 	"countDownClock-seconds": "$1 {{PLURAL:$1|sekuntt|sekuunt|sekunttâd}}"
