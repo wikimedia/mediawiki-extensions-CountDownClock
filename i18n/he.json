@@ -7,6 +7,7 @@
 			"Yona b"
 		]
 	},
+	"countDownClock-desc": "הוספת פונקציית מפענח להצגת זמן ספירה לאחור",
 	"countDownClock-invalidtime": "יש להוסיף פרמטר שעת סיום (endTime) תקין",
 	"countDownClock-days": "{{PLURAL:$1|יום אחד|יומיים|$1 ימים}}",
 	"countDownClock-hours": "{{PLURAL:$1|שעה|שעתיים|$1 שעות}}",
