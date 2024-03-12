@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Volvox"
+		]
+	},
+	"countDownClock-hours": "$1 {{PLURAL:$1|Stonn|Stonnen}}",
+	"countDownClock-minutes": "$1 {{PLURAL:$1|Minutt|Minutten}}",
+	"countDownClock-seconds": "$1 {{PLURAL:$1|Sekonn|Sekonnen}}"
+}
