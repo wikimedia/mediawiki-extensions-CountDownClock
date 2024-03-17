@@ -57,7 +57,7 @@ $magicWords['sr-el'] = [
  * @author Sumanth699
  */
 $magicWords['te'] = [
-   'countDownClock' => [ 0,'కౌంట్డౌన్_క్లాక్' ],
+   'countDownClock' => [ 0, 'కౌంట్డౌన్_క్లాక్' ],
 ];
 
 /**
@@ -66,5 +66,5 @@ $magicWords['te'] = [
  * @author ParasharSarthak
  */
 $magicWords['hi'] = [
-   'countDownClock' => [ 0,'उलटीगिनतीघड़ी' ],
+   'countDownClock' => [ 0, 'उलटीगिनतीघड़ी' ],
 ];
