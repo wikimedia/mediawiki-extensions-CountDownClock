@@ -3,6 +3,8 @@
 namespace MediaWiki\Extension\CountDownClock;
 
 use DateTime;
+use DateTimeInterface;
+use DateTimeZone;
 use Html;
 
 class Hooks {
@@ -27,14 +29,28 @@ class Hooks {
 	public static function renderTime( $parser, $param1 = '' ) {
 		$endTimeForcountDownClock = $param1;
 
-		$d = DateTime::createFromFormat( 'Y-m-d H:i:s', $endTimeForcountDownClock );
-		$isValidTime = $d && $d->format( 'Y-m-d H:i:s' ) == $endTimeForcountDownClock;
+		$formats = [
+			'Y-m-d H:i:s',
+			'Y-m-d H:i:s e',
+			'Y-m-d H:i:s T',
+			'Y-m-d H:i:s O',
+			'Y-m-d H:i:s P',
+			DateTimeInterface::ATOM
+		];
+
+		foreach ( $formats as $format ) {
+			$d = DateTime::createFromFormat( $format, $endTimeForcountDownClock, new DateTimeZone( 'UTC' ) );
+			$isValidTime = $d && $d->format( $format ) == $endTimeForcountDownClock;
+			if ( $isValidTime ) {
+				break;
+			}
+		}
 
 		if ( $isValidTime === false ) {
 
 			$output = Html::element(
-				'time',
-				[ 'id' => 'countDownClock', 'style' => 'color:red;' ],
+				'span',
+				[ 'class' => 'countDownClockError', 'style' => 'color:red;' ],
 				wfMessage( 'countDownClock-invalidtime' )->text()
 			);
 
@@ -44,13 +60,16 @@ class Hooks {
 		// Add Javascript Module
 		$parser->getOutput()->addModules( [ 'ext.countDownClock' ] );
 
-		// Pass endTime to Javascript
-		$parser->getOutput()->addJsConfigVars( 'endTime', $endTimeForcountDownClock );
-
 		// Create the time element
 		$output = Html::element(
-			'time',
-			[ 'id' => 'countDownClock' ]
+			'span',
+			[
+				'class' => 'countDownClock',
+				// ATOM is equivalent to the ISO 8601 like format used in JavaScript's Date object
+				'data' => $d->format( DateTimeInterface::ATOM )
+			],
+			// Non-breaking space, reduces likelyhood of page jumping when element's text is filled in
+			"\xc2\xa0"
 		);
 
 		return [ $output, 'isHTML' => true ];
