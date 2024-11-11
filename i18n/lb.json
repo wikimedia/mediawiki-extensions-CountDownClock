@@ -4,7 +4,9 @@
 			"Volvox"
 		]
 	},
+	"countDownClock-days": "$1 {{PLURAL:$1|Dag|Deeg}}",
 	"countDownClock-hours": "$1 {{PLURAL:$1|Stonn|Stonnen}}",
 	"countDownClock-minutes": "$1 {{PLURAL:$1|Minutt|Minutten}}",
-	"countDownClock-seconds": "$1 {{PLURAL:$1|Sekonn|Sekonnen}}"
+	"countDownClock-seconds": "$1 {{PLURAL:$1|Sekonn|Sekonnen}}",
+	"countDownClock-expired": "Ofgelaf"
 }
