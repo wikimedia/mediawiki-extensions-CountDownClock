@@ -25,7 +25,7 @@ class Hooks {
 	 *
 	 * @param Parser $parser
 	 * @param string $param1
-	 * @return string HTML string
+	 * @return array
 	 */
 	public static function renderTime( $parser, $param1 = '' ) {
 		$endTimeForcountDownClock = $param1;
@@ -67,7 +67,7 @@ class Hooks {
 			[
 				'class' => 'countDownClock',
 				// ATOM is equivalent to the ISO 8601 like format used in JavaScript's Date object
-				'data' => $d->format( DateTimeInterface::ATOM )
+				'data-time' => $d->format( DateTimeInterface::ATOM )
 			],
 			// Non-breaking space, reduces likelyhood of page jumping when element's text is filled in
 			"\xc2\xa0"
