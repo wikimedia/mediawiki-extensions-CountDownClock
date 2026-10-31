@@ -68,3 +68,12 @@ $magicWords['te'] = [
 $magicWords['hi'] = [
    'countDownClock' => [ 0, 'उलटीगिनतीघड़ी' ],
 ];
+
+/**
+ * Tamil
+ *
+ * @author Punith.nyk
+ */
+$magicWords['ta'] = [
+	'countDownClock' => [ 0, 'இறங்குமுகக்கணிப்புக்கடிகாரம்' ],
+];
